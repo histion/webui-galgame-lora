@@ -6,7 +6,7 @@
 ## 便装
 注：（miyako school 1,miyako school 2）放到负面tag去
 ```yaml
-kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,
+kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,juliet sleeves
 ```
 ![01876-3544948255-extremely delicate and beautiful, depth of field,amazing,masterpiece,growth,visual impact, ultra-detailed, highly, Amazing finel](https://github.com/histion/webui-galgame-lora/assets/65994410/6384a3eb-0966-4364-a738-10c4b68a7276)
 
