@@ -1,0 +1,78 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1700531274900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700531285983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n # webui-galgame-lora\r\n 一些自己喜欢的galgame角色的sd的lora模型\r\n \r\n-kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\n\\ No newline at end of file\n+kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n+\r\n"
+                },
+                {
+                    "date": 1700531296016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n # webui-galgame-lora\r\n 一些自己喜欢的galgame角色的sd的lora模型\r\n \r\n+便装\r\n kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n \r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1700531318138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,8 @@\n \r\n 便装\r\n kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n \r\n+女仆装\r\n+1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1700531330827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n \r\n 女仆装\r\n 1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n \r\n-\r\n+校服-带外套\r\n+kujo miyako, miyako school 1 ,light brown hair,Artifact, 1girl, eyebrows visible through hair,blue eyes, bangs, long hair, hair ornament, white thighhighs, brown footwear,shoes,pink cardigan,\r\n"
+                },
+                {
+                    "date": 1700531382409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,21 @@\n # webui-galgame-lora\r\n 一些自己喜欢的galgame角色的sd的lora模型\r\n \r\n 便装\r\n+\r\n kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n \r\n 女仆装\r\n+\r\n 1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n \r\n 校服-带外套\r\n+\r\n kujo miyako, miyako school 1 ,light brown hair,Artifact, 1girl, eyebrows visible through hair,blue eyes, bangs, long hair, hair ornament, white thighhighs, brown footwear,shoes,pink cardigan,\r\n+\r\n+校服-不带外套 \r\n+\r\n+注：(把miyako school 1,coat,cardigan,coat,open coat,open cardigan,pink cardigan放到负面tag去)\r\n+\r\n+kujo_miyako, miyako_school_2,light_brown_hair,Artifact, 1girl, solo, long_hair, white_thighhighs, hair_ornament, blush, eyebrows visible through hair,blue_eyes, medium_breasts, breasts, shoes, collarbone, brown_footwear, \r\n+\r\n"
+                },
+                {
+                    "date": 1700531452150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,21 +1,23 @@\n # webui-galgame-lora\r\n 一些自己喜欢的galgame角色的sd的lora模型\r\n \r\n-便装\r\n-\r\n+## 便装\r\n+```yaml\r\n kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n-\r\n-女仆装\r\n-\r\n+```\r\n+------\r\n+## 女仆装\r\n+```yaml\r\n 1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n-\r\n-校服-带外套\r\n-\r\n+```\r\n+------\r\n+## 校服-带外套\r\n+```yaml\r\n kujo miyako, miyako school 1 ,light brown hair,Artifact, 1girl, eyebrows visible through hair,blue eyes, bangs, long hair, hair ornament, white thighhighs, brown footwear,shoes,pink cardigan,\r\n-\r\n-校服-不带外套 \r\n-\r\n+```\r\n+------\r\n+## 校服-不带外套 \r\n 注：(把miyako school 1,coat,cardigan,coat,open coat,open cardigan,pink cardigan放到负面tag去)\r\n-\r\n+```yaml\r\n kujo_miyako, miyako_school_2,light_brown_hair,Artifact, 1girl, solo, long_hair, white_thighhighs, hair_ornament, blush, eyebrows visible through hair,blue_eyes, medium_breasts, breasts, shoes, collarbone, brown_footwear, \r\n-\r\n+```\r\n"
+                },
+                {
+                    "date": 1700531499601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n-# webui-galgame-lora\r\n-一些自己喜欢的galgame角色的sd的lora模型\r\n+# kujo_miyako|九条都\r\n+出处：9-nine\r\n+推荐lora强度0.7-0.8\r\n+负面tag推荐使用easynative\r\n \r\n ## 便装\r\n ```yaml\r\n kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n"
+                },
+                {
+                    "date": 1700531512283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n # kujo_miyako|九条都\r\n 出处：9-nine\r\n 推荐lora强度0.7-0.8\r\n-负面tag推荐使用easynative\r\n+负面tag推荐使用EasyNegative\r\n \r\n ## 便装\r\n ```yaml\r\n kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n"
+                },
+                {
+                    "date": 1700531540795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n 推荐lora强度0.7-0.8\r\n 负面tag推荐使用EasyNegative\r\n \r\n ## 便装\r\n+注：（miyako school 1,miyako school 2）放到负面tag去\r\n ```yaml\r\n kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n ```\r\n ------\r\n@@ -18,8 +19,8 @@\n kujo miyako, miyako school 1 ,light brown hair,Artifact, 1girl, eyebrows visible through hair,blue eyes, bangs, long hair, hair ornament, white thighhighs, brown footwear,shoes,pink cardigan,\r\n ```\r\n ------\r\n ## 校服-不带外套 \r\n-注：(把miyako school 1,coat,cardigan,coat,open coat,open cardigan,pink cardigan放到负面tag去)\r\n+注：(把miyako school 1,coat,cardigan,coat,open coat,open cardigan,pink cardigan)放到负面tag去\r\n ```yaml\r\n kujo_miyako, miyako_school_2,light_brown_hair,Artifact, 1girl, solo, long_hair, white_thighhighs, hair_ornament, blush, eyebrows visible through hair,blue_eyes, medium_breasts, breasts, shoes, collarbone, brown_footwear, \r\n ```\r\n"
+                },
+                {
+                    "date": 1700531773344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,13 @@\n ## 女仆装\r\n ```yaml\r\n 1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n ```\r\n+## 女仆装（还原原设的裙子长度）\r\n+```yaml\r\n+1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,green ribbon,white bow,visible through hair,blue eyes, long hair,long dress,white pantyhose,\r\n+```\r\n+\r\n ------\r\n ## 校服-带外套\r\n ```yaml\r\n kujo miyako, miyako school 1 ,light brown hair,Artifact, 1girl, eyebrows visible through hair,blue eyes, bangs, long hair, hair ornament, white thighhighs, brown footwear,shoes,pink cardigan,\r\n"
+                },
+                {
+                    "date": 1700531826576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n 1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n ```\r\n ## 女仆装（还原原设的裙子长度）\r\n ```yaml\r\n-1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,green ribbon,white bow,visible through hair,blue eyes, long hair,long dress,white pantyhose,\r\n+1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,green ribbon,white bow,long sleeves,visible through hair,blue eyes, long hair,long dress,white pantyhose,\r\n ```\r\n \r\n ------\r\n ## 校服-带外套\r\n"
+                },
+                {
+                    "date": 1700532062059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n 1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n ```\r\n ## 女仆装（还原原设的裙子长度）\r\n ```yaml\r\n-1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,green ribbon,white bow,long sleeves,visible through hair,blue eyes, long hair,long dress,white pantyhose,\r\n+1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,green ribbon,white bow,detached sleeves,visible through hair,blue eyes, long hair,long dress,white pantyhose,\r\n ```\r\n \r\n ------\r\n ## 校服-带外套\r\n"
+                },
+                {
+                    "date": 1700533108418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,11 @@\n ## 女仆装\r\n ```yaml\r\n 1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n ```\r\n-## 女仆装（还原原设的裙子长度）\r\n+## 女仆装（尽量还原原设的裙子长度）\r\n ```yaml\r\n-1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,green ribbon,white bow,detached sleeves,visible through hair,blue eyes, long hair,long dress,white pantyhose,\r\n+1girl,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,enmaided,white bow,frilled,detached sleeves,visible through hair,blue eyes, long hair,long dress,green ribbon,white pantyhose,\r\n ```\r\n \r\n ------\r\n ## 校服-带外套\r\n"
+                },
+                {
+                    "date": 1700533138208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # kujo_miyako|九条都\r\n 出处：9-nine\r\n 推荐lora强度0.7-0.8\r\n 负面tag推荐使用EasyNegative\r\n-\r\n+女仆装的袖子依旧是难以解决的问题QAQ\r\n ## 便装\r\n 注：（miyako school 1,miyako school 2）放到负面tag去\r\n ```yaml\r\n kujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,\r\n"
+                },
+                {
+                    "date": 1700533146704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n ## 女仆装\r\n ```yaml\r\n 1girl,kujo miyako,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,visible through hair,blue eyes, long hair,(white thighhighs:1.5)\r\n ```\r\n+------\r\n ## 女仆装（尽量还原原设的裙子长度）\r\n ```yaml\r\n 1girl,miyako maid,light brown hair,twintails,hair ornament,Artifact,miyako maid, maid headdress,enmaided,white bow,frilled,detached sleeves,visible through hair,blue eyes, long hair,long dress,green ribbon,white pantyhose,\r\n ```\r\n"
+                }
+            ],
+            "date": 1700531274900,
+            "name": "Commit-0",
+            "content": "# webui-galgame-lora\r\n一些自己喜欢的galgame角色的sd的lora模型\r\n\r\nkujo miyako,miyako home,light brown hair,Artifact,blue eyes,bangs,eyebrows visible through hair,1girl, white thighhighs, long hair, hair ornament,necklace,long dress,blue dress,"
+        }
+    ]
+}
