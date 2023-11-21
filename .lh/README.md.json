@@ -1,0 +1,34 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1700527754057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700527795420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,24 +4,24 @@\n ## 乾纱凪-校服\r\n  ```yaml\r\n  sana school,black headwear,  red hair,long hair,hair intakes,{single hair intake},ahoge, single braid,looking at viewer,black socks, ponytail, braid, kneehighs, bow,  school uniform,puffy sleeves, white skirt, \r\n   ```\r\n-\r\n+------\r\n ## 乾纱凪-散发新裙子\r\n  ```yaml\r\n sana newdrss,1girl, red hair, long hair, {{hair down}},floating hair,ahoge, single hair intake, hair between eyes,bangs,long sleeves, purple eyes, dress,black dress,necklace, bare shoulders,\r\n   ```\r\n-\r\n+------\r\n ## 乾纱凪-马尾新裙子（hair spread out酌情删除）\r\n  ```yaml\r\n sana newdress, 1girl, red hair, long hair, {{ponytail}},hair spread out,single hair intake,bangs, ahoge, hair between eyes,long sleeves, purple eyes, dress,black dress,necklace, bare shoulders, white ribbon\r\n   ```\r\n-\r\n+------\r\n ## 乾纱凪-圣诞戴帽形态\r\n  ```yaml\r\n inui sana, sana Christmas, 1girl, red hair, cape, santa costume, boots, long hair,santa hat, hood, plaid-trimmed skirt\r\n   ```\r\n-\r\n+------\r\n ## 乾纱凪-圣诞不戴帽形态\r\n  ```yaml\r\n inui sana,sana Christmas, 1girl, long hair, red hair, collarbone,santa costume, hair between eyes, shiny, shiny hair, single hair intake, bangs, purple eyes,small breasts, \r\n   ```\r\n"
+                },
+                {
+                    "date": 1700527849522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n # inui_sana|乾纱凪\r\n 出处：纯白交响曲 \r\n-\r\n+推荐lora强度0.7-0.8\r\n ## 乾纱凪-校服\r\n  ```yaml\r\n  sana school,black headwear,  red hair,long hair,hair intakes,{single hair intake},ahoge, single braid,looking at viewer,black socks, ponytail, braid, kneehighs, bow,  school uniform,puffy sleeves, white skirt, \r\n   ```\r\n ------\r\n-## 乾纱凪-散发新裙子\r\n+## 乾纱凪-散发新裙子(效果可能不好)\r\n  ```yaml\r\n sana newdrss,1girl, red hair, long hair, {{hair down}},floating hair,ahoge, single hair intake, hair between eyes,bangs,long sleeves, purple eyes, dress,black dress,necklace, bare shoulders,\r\n   ```\r\n ------\r\n"
+                },
+                {
+                    "date": 1700527869776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,23 +4,27 @@\n ## 乾纱凪-校服\r\n  ```yaml\r\n  sana school,black headwear,  red hair,long hair,hair intakes,{single hair intake},ahoge, single braid,looking at viewer,black socks, ponytail, braid, kneehighs, bow,  school uniform,puffy sleeves, white skirt, \r\n   ```\r\n+\r\n ------\r\n ## 乾纱凪-散发新裙子(效果可能不好)\r\n  ```yaml\r\n sana newdrss,1girl, red hair, long hair, {{hair down}},floating hair,ahoge, single hair intake, hair between eyes,bangs,long sleeves, purple eyes, dress,black dress,necklace, bare shoulders,\r\n   ```\r\n+\r\n ------\r\n ## 乾纱凪-马尾新裙子（hair spread out酌情删除）\r\n  ```yaml\r\n sana newdress, 1girl, red hair, long hair, {{ponytail}},hair spread out,single hair intake,bangs, ahoge, hair between eyes,long sleeves, purple eyes, dress,black dress,necklace, bare shoulders, white ribbon\r\n   ```\r\n+\r\n ------\r\n ## 乾纱凪-圣诞戴帽形态\r\n  ```yaml\r\n inui sana, sana Christmas, 1girl, red hair, cape, santa costume, boots, long hair,santa hat, hood, plaid-trimmed skirt\r\n   ```\r\n+  \r\n ------\r\n ## 乾纱凪-圣诞不戴帽形态\r\n  ```yaml\r\n inui sana,sana Christmas, 1girl, long hair, red hair, collarbone,santa costume, hair between eyes, shiny, shiny hair, single hair intake, bangs, purple eyes,small breasts, \r\n"
+                },
+                {
+                    "date": 1700528141758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n 出处：纯白交响曲 </p>\r\n 推荐lora强度：0.7-0.8</p>\r\n 推荐模型：无，喜欢啥就啥吧，画风不同而已=。=</p>\r\n 负面tag建议上个easynative\r\n+\r\n ## 乾纱凪-校服\r\n  ```yaml\r\n  sana school,black headwear,  red hair,long hair,hair intakes,{single hair intake},ahoge, single braid,looking at viewer,black socks, ponytail, braid, kneehighs, bow,  school uniform,puffy sleeves, white skirt, \r\n   ```\r\n"
+                }
+            ],
+            "date": 1700527754057,
+            "name": "Commit-0",
+            "content": "# inui_sana|乾纱凪\r\n出处：纯白交响曲 \r\n\r\n## 乾纱凪-校服\r\n ```yaml\r\n sana school,black headwear,  red hair,long hair,hair intakes,{single hair intake},ahoge, single braid,looking at viewer,black socks, ponytail, braid, kneehighs, bow,  school uniform,puffy sleeves, white skirt, \r\n  ```\r\n\r\n## 乾纱凪-散发新裙子\r\n ```yaml\r\nsana newdrss,1girl, red hair, long hair, {{hair down}},floating hair,ahoge, single hair intake, hair between eyes,bangs,long sleeves, purple eyes, dress,black dress,necklace, bare shoulders,\r\n  ```\r\n\r\n## 乾纱凪-马尾新裙子（hair spread out酌情删除）\r\n ```yaml\r\nsana newdress, 1girl, red hair, long hair, {{ponytail}},hair spread out,single hair intake,bangs, ahoge, hair between eyes,long sleeves, purple eyes, dress,black dress,necklace, bare shoulders, white ribbon\r\n  ```\r\n\r\n## 乾纱凪-圣诞戴帽形态\r\n ```yaml\r\ninui sana, sana Christmas, 1girl, red hair, cape, santa costume, boots, long hair,santa hat, hood, plaid-trimmed skirt\r\n  ```\r\n\r\n## 乾纱凪-圣诞不戴帽形态\r\n ```yaml\r\ninui sana,sana Christmas, 1girl, long hair, red hair, collarbone,santa costume, hair between eyes, shiny, shiny hair, single hair intake, bangs, purple eyes,small breasts, \r\n  ```\r\n\r\n（更新中）\r\n"
+        }
+    ]
+}
