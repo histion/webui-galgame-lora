@@ -23,7 +23,8 @@ sana newdrss,1girl, red hair, long hair, {{hair down}},floating hair,ahoge, sing
  ```yaml
 sana newdress, 1girl, red hair, long hair, {{ponytail}},hair spread out,single hair intake,bangs, ahoge, hair between eyes,long sleeves, purple eyes, dress,black dress,necklace, bare shoulders, white ribbon
   ```
-![Uploading 00133-792975478-masterpiece, best quality,_lora_sana2-000010_0.73_,sana newdress, 1girl, red hair, long hair, {{ponytail}},hair spread out,singl.png…]()
+![00133-792975478-masterpiece, best quality,_lora_sana2-000010_0 73_,sana newdress, 1girl, red hair, long hair, {{ponytail}},hair spread out,singl](https://github.com/histion/webui-galgame-lora/assets/65994410/d163496a-9920-4b3f-b985-bb0d69df9141)
+
 
 ------
 ## 乾纱凪-圣诞戴帽形态
